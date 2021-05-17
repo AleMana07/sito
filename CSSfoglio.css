@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.caption {
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.caption img {
+    float: center;
+    margin-left: 10px;
+	margin-right: -10px;
+    padding-bottom: 10px;
+    background: #fff;
+    border: none;
+}
+.caption span {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #dedede;
+    background: #222; /* browser che non supportano rgba */
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.caption span strong {
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.email {
+	position:fixed;
+	bottom: 10px;
+	right: 10px;
+	
+	
+}
+
+.titoloemail {
+	font-size: 30px;
+	background-size: 3000px , 100px; 
+	background-color: #808080;
+}
+
+.descrizione {
+	font-size: 20px;
+	background-size: 3000px , 100px; 
+	background-color: #808080;
+}
+
+.C {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	margin-top: 50px;
+	float: center;
+	position: relative;
+}
+
+.textC {
+	margin-top:300px;
+	bottom: 400px;
+	text-align:center;
+	bottom: 500px;
+}
+
+.titolo {
+	font-size: 50px;
+	background-size: 3000px , 100px; 
+	background-color: #808080;
+}
+
+.titolo2 {
+	font-size: 50px;
+	opacity: 100%;
+	background-size: 3000px , 100px; 
+	background-color: #808080;
+	
+}
+
+.titolo3 {
+	font-size: 30px;
+	background-size: 3000px , 100px; 
+	background-color: #808080;
+}
+
+.storia img{
+	float: center;
+	height: 350px;
+	width: 250px;
+}
+
+.storia {
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    float: left;
+    margin: 0px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.storia img {
+	text-align: center;
+	position:relative;
+    float: center;
+	margin-left: 10px;
+	margin-right: -10px;
+    padding-bottom: 10px;
+    background: #fff;
+    border: none;
+}
+.storia span {
+    float: center;
+	margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #dedede;
+    background: #222; /* browser che non supportano rgba */
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+}
+.storia span strong {
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+}
+.testo{
+	font-size: 20px;
+	padding: 10px;
+
+} 
+.caption2 {
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: left;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+    float: center;
+}
