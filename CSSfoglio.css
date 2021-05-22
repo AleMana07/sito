@@ -193,6 +193,7 @@ table {
     bottom: 0;
 }
 .storia span strong {
+	text-align: left;
     font-weight: bold;
     font-size: 9px;
     text-transform: uppercase;
