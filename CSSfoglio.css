@@ -205,14 +205,14 @@ table {
 }
 
 .cosa {
-    width: 300px;
+    width: 500px;
 }
 
 .cosa2{
 	padding-top: 100%;
     height: 0;
     overflow: hidden;
-    background-color: #57BCB7;
+    background-color: none;
     position: relative;
 }
 
