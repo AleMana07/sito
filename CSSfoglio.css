@@ -239,5 +239,21 @@ table {
 }
 
 .storia2{
-	float: center;
+	position: relative;
+	width: 300px;
+	margin: auto;
 }
+
+.storia3{
+	position: relative;
+	margin: 10%;
+	height: 400px;
+	background-color: none;
+}
+
+.storia4{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+	
