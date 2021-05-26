@@ -46,7 +46,31 @@ table {
 	border-spacing: 0;
 }
 
+media screen and (max-width: 640px) { 
+	body {font-size:70%;} 
+} 
 
+media screen and (min-width: 641px) { 
+	body {font-size:100%;}
+} 
+ 
+media screen and (min-width:960px) { 
+	body {font-size:100%;}
+	.cosa6{width: 200%;}
+} 
+
+media screen and (max-width:1920px) { 
+	body {
+		font-size:100%;
+	}
+	.cosa6{
+		width: 200%;
+	}
+} 
+
+media (min-width:1100px) { 
+body {font-size:100%;}
+} 
 .caption {
     font-family: Verdana, sans-serif;
     font-size: 10px;
@@ -122,13 +146,13 @@ table {
 	bottom: 500px;
 }
 .cosa5 {
-    width:196px;
+	width: 196px;
 }
 
 .cosa4{
 	padding-top: 100%;
-    width: 1250px;
-	height: 100%;
+    width: 1200px;
+	height: 20%;
     overflow: hidden;
     background-color: #808080;
     position: relative;
@@ -162,41 +186,39 @@ table {
 }
 
 .storia {
+	text-align: left;
     font-family: Verdana, sans-serif;
     font-size: 10px;
     float: left;
-    margin: 0px;
+    margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
+	padding-top: 10%;
 }
 .storia img {
-	text-align: center;
-	position:relative;
     float: center;
-	margin-left: 300px;
+    margin-left: 10px;
 	margin-right: -10px;
     padding-bottom: 10px;
     background: #fff;
-    border: none;
+    border: black;
 }
 .storia span {
-    float: center;
-	margin-left: 300px;
-    margin-bottom: 10px;
+    float: left;
+    margin: 10px;
     padding: 10px;
     width: 100%;
     color: #dedede;
     background: #222; /* browser che non supportano rgba */
     background: rgba(0,0,0,0.7);
     position: absolute;
-    left: 0px;
+    left: 0;
     bottom: 0;
 }
 .storia span strong {
-	text-align: left;
     font-weight: bold;
-    font-size: 9px;
+    font-size: 11px;
     text-transform: uppercase;
     display: block;
     padding-bottom: 5px;
@@ -241,18 +263,63 @@ table {
 
 .storia2{
 	position: relative;
-	width: 600px;
-	margin: auto;
+	width: 100%;
+	margin-left: 0%;
+	padding-left: 10%;
 }
 
 .storia3{
 	position: relative;
-	margin: 10%;
-	height: 400px;
+	margin-left: 0%;
+	height: 100%;
 	background-color: none;
 }
 
 .storia4{
+	float: left;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.storia5{
+	position: relative;
+	width: 100%;
+	margin-left: 0%;
+	padding-left: 39%;
+}
+
+.storia6{
+	position: relative;
+	margin-left: 0%;
+	height: 100%;
+	background-color: none;
+}
+
+.storia7{
+	float: left;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.storia8{
+	position: relative;
+	width: 100%;
+	margin-left: 0%;
+	padding-left: 68%;
+}
+
+.storia9{
+	position: relative;
+	margin-left: 0%;
+	height: 100%;
+	background-color: none;
+}
+
+.storia10{
 	float: left;
 	position: absolute;
 	text-align: center;
