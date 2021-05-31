@@ -305,6 +305,28 @@ table {
 	height: 100%;
 }
 
+.Storia{
+	position: relative;
+	width: 100%;
+	margin-left: 0%;
+	padding-left: 68%;
+}
+
+.Storia2{
+	position: relative;
+	margin-left: 0%;
+	height: 100%;
+	background-color: none;
+}
+
+.Storia3{
+	float: left;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
 .pseint{
 	text-align: left;
 	font-size: 30px;
