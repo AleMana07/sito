@@ -262,7 +262,6 @@ table {
 }
 
 .storia2{
-	margin-top: 2%;
 	position: relative;
 	width: 100%;
 	margin-left: 0%;
@@ -285,7 +284,6 @@ table {
 }
 
 .storia5{
-	margin-top: 2%;
 	position: relative;
 	width: 100%;
 	margin-left: 0%;
@@ -308,7 +306,6 @@ table {
 }
 
 .storia8{
-	margin-top: 2%;
 	position: relative;
 	width: 100%;
 	margin-left: 0%;
@@ -338,7 +335,7 @@ table {
 .pseint2{
 	margin-top: 2%;
 	margin-left: 4%;
-	margin-right: 2%;
+	margin-right: 4%;
 	position: relative;
 }
 
@@ -360,7 +357,7 @@ table {
 	height: 300px;
 }
 
-.generale {
+.general {
 	overflow: hidden;
 	background: none;
 	position: absolute;
